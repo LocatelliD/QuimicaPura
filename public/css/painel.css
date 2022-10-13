@@ -1,0 +1,80 @@
+.nav-link {
+    color: #183883;
+}
+
+.container {
+    margin-top: 2%;
+}
+
+
+/* Set gray background color and 100% height */
+
+.sidenav {
+    background-image: linear-gradient(#fffafa, #708090);
+    background-color: #708090;
+    color: #9ecf5c;
+    min-height: 800px;
+    height: auto;
+}
+
+.nav-stacked h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #183883;
+    text-align: center;
+}
+
+
+/* Set black background color, white text and some padding */
+
+footer {
+    background-color: #000;
+    color: white;
+    padding: 15px;
+    display: block;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {
+        height: auto;
+    }
+}
+
+h4 {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.icons-index {
+    margin-right: 5%;
+    border-radius: 25% !important;
+    background-color: #9ecf5c;
+}
+
+.icons-bg {
+    font-size: 19px;
+}
+
+.icons-index-deletar {
+    margin-right: 5%;
+    border-radius: 25% !important;
+}

@@ -1,0 +1,137 @@
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+
+a:link
+{
+    text-decoration:none;
+    color: black;
+} 
+
+a{
+    text-decoration:none;
+    color: black;
+}
+
+a:hover{
+    text-decoration:none;
+    color: black;
+}
+
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color: #000000;
+    font-size: 14pt;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar-inverse{
+    background-color: #000000;
+}
+.container-fluid{
+    background-color: #b6d600;
+}
+.jumbotron{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    background-color: #000000;
+}
+
+.text-center .img-responsive {
+    margin: 0 auto;
+    width: 30%
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+.carousel-inner img {
+    margin: auto;
+    max-width:200px;
+    max-height:360px;
+    width: auto;
+    height: auto;
+}
+p.quebra{
+    white-space: normal;
+}
+
+#creditos p{
+    font-size: 16px;
+    margin: 0; 
+    color: #202932;
+}
+#creditos{
+    padding: inherit;
+    margin-left: 14%;
+    margin-right: 14%;
+}
+
+
+#noticia a{
+    text-decoration: none; 
+    color: #202932;
+}
+
+.well img{
+    float: left;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+h2.noticias{
+    position: relative;
+    left: 38%;
+    display:inline;
+}
+
+h2.produtos{
+    position: relative;
+    display: inline;
+    left: -23%;
+}
+
+.xs_small{
+    display: none;
+    visibility: hidden;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none; 
+    }
+
+    h2.produtos{
+        position: relative;
+        left: 0%;
+    }
+
+    h2.noticias{
+        display: none;
+        visibility: hidden;
+    }
+    .xs_small{
+        display:block!important;
+        visibility: visible;
+    }
+}
+
+@media (max-width: 500px) {
+    .text-center .img-responsive {
+        margin: 0 auto;
+        width: 80%
+    }
+}
